@@ -1,0 +1,26 @@
+.gold_button {
+
+  width: 216px;
+  height: 56px;
+
+  background: linear-gradient(#E1CF33, #9E721D);
+  border: none;
+  border-radius: 60px;
+
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+
+}
