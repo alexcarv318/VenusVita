@@ -1,0 +1,22 @@
+.links_row {
+  display: flex;
+}
+
+.links_column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.link {
+  margin: 35px;
+  color: var(--main-black);
+
+  font-weight: 700 !important;
+  font-size: 20px;
+  line-height: 30px;
+
+  &:hover {
+    color: #E1CF33;
+  }
+}

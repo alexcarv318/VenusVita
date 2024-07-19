@@ -1,35 +1,33 @@
-import logo from '@src/assets/svg/logo/logo.svg';
-import bars from '@src/assets/svg/bars-xs.svg';
-import styles from '@src/components/layout/Header/Header.module.scss';
-import {useScrollDirection} from '@src/hooks/useScrollDirection.tsx';
-import {useMediaQueries} from "@src/hooks/useMediaQueries.ts";
-import {Link} from "react-router-dom";
+import logo from 'src/assets/svg/logo/logo.svg';
+import bars from 'src/assets/svg/bars-xs.svg';
+import styles from 'src/components/layout/Header/Header.module.scss';
+import {useScrollDirection} from "src/hooks/useScrollDirection.ts";
+import {useMediaQueries} from "src/hooks/useMediaQueries.ts";
+import GoldButton from "src/components/GoldButton/GoldButton.tsx";
+import Links from "src/components/Links/Links.tsx";
 
-const Header = () => {
+type HeaderProps = {
+    isMobileMenuOpen: boolean;
+    setMobileMenuOpen: () => void;
+}
+
+const Header = ({isMobileMenuOpen, setMobileMenuOpen}: HeaderProps) => {
     const scrollDirection = useScrollDirection()
     const mediaQueries = useMediaQueries()
 
     return (
-        <header className={`${styles.header} ${(scrollDirection === 'down' ? styles.header_hidden : styles.header_shown)}`}>
+        <header className={`${styles.header} ${(scrollDirection === 'down' && !isMobileMenuOpen) ? styles.header_hidden : styles.header_shown}`}>
             <img className={styles.header__logo} src={logo} alt={"Venus Vita logo"} />
 
             {mediaQueries.isDesktopOrLaptop && (
                 <>
-                    <div className={styles.header__links}>
-                        <Link to={"/"} className={styles.header__link}>Послуги</Link>
-                        <Link to={"/"} className={styles.header__link}>Про нас</Link>
-                        <Link to={"/"} className={styles.header__link}>Ціни</Link>
-                        <Link to={"/"} className={styles.header__link}>Контакти</Link>
-                    </div>
-
-                    <button>
-                        Замовити
-                    </button>
+                    <Links direction={"row"} />
+                    <GoldButton text={"Записатись"} />
                 </>
             )}
 
             {mediaQueries.isTabletOrMobile && (
-                <img src={bars} alt={"Menu"} />
+                <img className={styles.header__menu} src={bars} alt={"Mobile menu"} onClick={() => setMobileMenuOpen(!isMobileMenuOpen)} />
             )}
 
         </header>

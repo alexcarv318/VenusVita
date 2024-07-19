@@ -1,6 +1,7 @@
 .header {
   position: sticky;
   top: 0;
+  z-index: 3;
 
   width: auto;
   height: 3rem;
@@ -21,17 +22,13 @@
   &__logo {
     width: 60px;
     height: 60px;
+    cursor: pointer;
   }
 
-  &__link {
-    margin: 35px;
-    color: var(--main-black);
-
-    font-weight: 700 !important;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: left;
+  &__menu {
+    cursor: pointer;
   }
+
 }
 
 .header {

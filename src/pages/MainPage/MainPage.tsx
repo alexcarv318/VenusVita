@@ -1,10 +1,13 @@
-import PageLayout from "@src/components/layout/PageLayout/PageLayout.tsx";
+import PageLayout from "src/components/layout/PageLayout/PageLayout.tsx";
+import IntroScreen from "src/components/IntroScreen/IntroScreen.tsx";
 
 const MainPage = () => {
     return (
-        <PageLayout>
-            <h2>PASS</h2>
-        </PageLayout>
+        <>
+            <PageLayout>
+                <IntroScreen />
+            </PageLayout>
+        </>
     );
 }
 
