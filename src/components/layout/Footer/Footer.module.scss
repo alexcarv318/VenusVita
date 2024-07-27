@@ -1,0 +1,17 @@
+footer {
+  background: white;
+  box-shadow: 0 0 5.1px 9px #1E19190D;
+  margin-bottom: -15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1224px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

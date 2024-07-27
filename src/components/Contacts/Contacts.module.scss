@@ -1,0 +1,54 @@
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+
+  &__logo {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  &__tel_link {
+    color: var(--main-black);
+    text-decoration: none;
+    font-size: 2.3rem;
+    margin: 0 10px;
+  }
+
+  &__tel {
+    margin: 0;
+    transition: 0.1s ease-in-out;
+  }
+
+  &__instagram {
+    width: 40px;
+    height: 40px;
+    transition: 0.1s ease-in-out;
+  }
+
+}
+
+.contacts__tel_link:hover .contacts__tel {
+  transform: scale(1.2);
+  color: var(--main-black);
+}
+
+.contacts__instagram_link:hover .contacts__instagram {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1224px) {
+    .contacts {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 80%;
+    }
+
+    .contacts__tel_link  {
+      font-size: 1.3rem;
+    }
+}
