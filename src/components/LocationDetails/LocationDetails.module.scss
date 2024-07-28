@@ -1,0 +1,40 @@
+.location_details {
+  text-align: end;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  &__address {}
+
+  &__schedule {}
+
+  &__email {
+    a {
+      text-decoration: none;
+      color: var(--main-black);
+
+      &:hover {
+        color: var(--main-gold);
+      }
+    }
+  }
+
+  @media screen and (max-width: 1224px) {
+    text-align: center;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+}
+

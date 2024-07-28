@@ -12,7 +12,7 @@ const Links = ({direction, align}: LinksProps) => {
             <Link to={"/"} className={styles.link}>Послуги</Link>
             <Link to={"/"} className={styles.link}>Про нас</Link>
             <Link to={"/"} className={styles.link}>Ціни</Link>
-            <Link to={"/"} className={styles.link}>Контакти</Link>
+            <Link to={"/contacts"} className={styles.link}>Контакти</Link>
         </div>
     )
 }

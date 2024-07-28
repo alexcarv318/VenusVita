@@ -1,9 +1,13 @@
 import styles from './MakeAppointmentForm.module.scss';
 import GoldButton from "src/components/GoldButton/GoldButton.tsx";
 
-const MakeAppointmentForm = () => {
+type MakeAppointmentFormProps = {
+    additional_styles?: CSSStyleDeclaration;
+}
+
+const MakeAppointmentForm = ({additional_styles}: MakeAppointmentFormProps) => {
     return (
-        <div className={styles.make_appointment}>
+        <div className={styles.make_appointment} style={additional_styles}>
             <h2 className={styles.make_appointment__title}>Записатися на візит</h2>
             <form className={styles.make_appointment_form}>
 

@@ -5,6 +5,7 @@ import {useScrollDirection} from "src/hooks/useScrollDirection.ts";
 import {useMediaQueries} from "src/hooks/useMediaQueries.ts";
 import GoldButton from "src/components/GoldButton/GoldButton.tsx";
 import Links from "src/components/Links/Links.tsx";
+import {Link} from "react-router-dom";
 
 type HeaderProps = {
     isMobileMenuOpen: boolean;
@@ -17,7 +18,7 @@ const Header = ({isMobileMenuOpen, setMobileMenuOpen}: HeaderProps) => {
 
     return (
         <header className={`${styles.header} ${(scrollDirection === 'down' && !isMobileMenuOpen) ? styles.header_hidden : styles.header_shown}`}>
-            <img className={styles.header__logo} src={logo} alt={"Venus Vita logo"} />
+            <Link to={"/home"}><img className={styles.header__logo} src={logo} alt={"Venus Vita logo"} /></Link>
 
             {mediaQueries.isDesktopOrLaptop && (
                 <>
