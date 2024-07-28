@@ -5,7 +5,6 @@ import Contacts from "src/components/Contacts/Contacts.tsx";
 
 const Footer = () => {
     const mediaQueries = useMediaQueries();
-    const myStyles = styles;
 
     return (
         <footer>
@@ -14,12 +13,12 @@ const Footer = () => {
             )}
 
             {mediaQueries.isTabletOrMobile && (
-                <Links direction={"column"} />
+                <Links direction={"column"} align={"start"} />
             )}
 
             <Contacts />
 
-            <p>
+            <p className={styles.footer_copyrights}>
                 © 2024 VenusVita. Всі права захищено.
             </p>
         </footer>

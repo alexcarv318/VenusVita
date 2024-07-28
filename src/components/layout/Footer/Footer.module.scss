@@ -14,4 +14,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .footer_copyrights {
+    grid-column: 1 / 3;
+  }
 }

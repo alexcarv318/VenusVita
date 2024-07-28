@@ -8,3 +8,10 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 1224px) {
+  .make_appointment_section {
+    width: 90%;
+    margin: auto;
+  }
+}
