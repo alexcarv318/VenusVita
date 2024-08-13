@@ -10,7 +10,7 @@ const Links = ({direction, align}: LinksProps) => {
     return (
         <div className={(direction === "row" ? styles.links_row : styles.links_column)} style={{textAlign: align}}>
             <Link to={"/"} className={styles.link}>Послуги</Link>
-            <Link to={"/"} className={styles.link}>Про нас</Link>
+            <Link to={"/about"} className={styles.link}>Про нас</Link>
             <Link to={"/"} className={styles.link}>Ціни</Link>
             <Link to={"/contacts"} className={styles.link}>Контакти</Link>
         </div>
