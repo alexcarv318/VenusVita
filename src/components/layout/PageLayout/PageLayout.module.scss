@@ -1,5 +1,8 @@
 .page_layout {
   position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 260px;
 
   &__background {
     position: fixed;
@@ -11,5 +14,11 @@
     filter: opacity(20%);
   }
 
+}
+
+@media screen and (max-width: 1224px) {
+  .page_layout {
+      padding-bottom: 500px;
+  }
 }
 

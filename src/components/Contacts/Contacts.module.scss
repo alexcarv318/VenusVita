@@ -19,6 +19,7 @@
 
   &__tel {
     margin: 0;
+    font-weight: 600;
     transition: 0.1s ease-in-out;
   }
 
@@ -49,6 +50,6 @@
     }
 
     .contacts__tel_link  {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
 }

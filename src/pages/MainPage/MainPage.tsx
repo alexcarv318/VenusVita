@@ -5,12 +5,10 @@ import MakeAppointmentSection from "src/components/MakeAppointmentSection/MakeAp
 
 const MainPage = () => {
     return (
-        <>
-            <PageLayout>
-                <IntroScreen />
-                <MakeAppointmentSection />
-            </PageLayout>
-        </>
+        <PageLayout>
+            <IntroScreen />
+            <MakeAppointmentSection />
+        </PageLayout>
     );
 }
 
