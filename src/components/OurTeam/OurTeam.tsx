@@ -24,7 +24,7 @@ const OurTeam = () => {
                 <figure className={styles.our_team_member__figure}>
                     <img className={styles.our_team_member__image} src="src/assets/png/team/nastya.png"
                          alt="Анастасія"/>
-                    <figcaption className={styles.our_team_member__caption}>Вергун Наталія Михайлівна</figcaption>
+                    <figcaption className={styles.our_team_member__caption}>Анастасія</figcaption>
                 </figure>
             </div>
         </div>
