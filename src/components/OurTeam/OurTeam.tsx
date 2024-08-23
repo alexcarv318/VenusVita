@@ -10,7 +10,7 @@ const OurTeam = () => {
                     <p className={styles.our_team_member__description}>Більше 9 років практичного досвіду в естетичній косметології.</p>
                 </div>
                 <figure className={styles.our_team_member__figure}>
-                    <img className={styles.our_team_member__image} src="src/assets/png/team/nataliya.png"
+                    <img className={styles.our_team_member__image} src="src/assets/images/team/nataliya.png"
                          alt="Вергун Наталія"/>
                     <figcaption className={styles.our_team_member__caption}>Вергун Наталія Михайлівна</figcaption>
                 </figure>
@@ -22,7 +22,7 @@ const OurTeam = () => {
                     <p className={styles.our_team_member__description}>Понад 7 років працює у сфері косметології, краси та молодості.</p>
                 </div>
                 <figure className={styles.our_team_member__figure}>
-                    <img className={styles.our_team_member__image} src="src/assets/png/team/nastya.png"
+                    <img className={styles.our_team_member__image} src="src/assets/images/team/nastya.png"
                          alt="Анастасія"/>
                     <figcaption className={styles.our_team_member__caption}>Анастасія</figcaption>
                 </figure>

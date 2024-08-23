@@ -1,9 +1,10 @@
 import PageLayout from "src/components/layout/PageLayout/PageLayout.tsx";
+import ServicesSlider from "src/components/ServicesSlider/ServicesSlider.tsx";
 
 const ServicesPage = () => {
     return (
         <PageLayout>
-            <h1>Services</h1>
+            <ServicesSlider />
         </PageLayout>
     );
 }
