@@ -1,0 +1,15 @@
+.service_row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px dashed rgba(165, 123, 32, 0.2);
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1224px) {
+    .service_row {
+        h4 {
+          text-align: start;
+        }
+    }
+}

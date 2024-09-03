@@ -1,0 +1,16 @@
+.service_topic_row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #A57B20;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1224px) {
+  .service_topic_row {
+    h2 {
+      text-align: start;
+      font-size: 1.1rem;
+    }
+  }
+}

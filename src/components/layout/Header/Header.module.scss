@@ -1,0 +1,48 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+
+  width: auto;
+  height: 3rem;
+
+  padding: 22px 120px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: white;
+  box-shadow: 0px 3px 5.1px 0px #1E19190D;
+
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+
+  &__logo {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+
+  &__menu {
+    cursor: pointer;
+  }
+
+}
+
+.header {
+  &_shown {
+    top: 0;
+  }
+
+  &_hidden {
+    top: -6rem;
+  }
+}
+
+@media screen and (max-width: 1224px) {
+  .header {
+    padding: 22px;
+  }
+}

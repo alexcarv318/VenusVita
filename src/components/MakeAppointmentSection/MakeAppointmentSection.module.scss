@@ -1,0 +1,17 @@
+.make_appointment_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+  div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1224px) {
+  .make_appointment_section {
+    width: 90%;
+    margin: auto;
+  }
+}

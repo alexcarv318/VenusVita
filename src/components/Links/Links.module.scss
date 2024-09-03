@@ -1,0 +1,33 @@
+.links_row {
+  display: flex;
+}
+
+.links_column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.link {
+  margin: 35px;
+  color: var(--main-black);
+
+  font-weight: 700 !important;
+  font-size: 20px;
+  line-height: 30px;
+
+  &:hover {
+    color: #E1CF33;
+
+    .caret_down {
+      transform: rotate(180deg) translateY(-4px);
+      transition: 0.3s ease-in-out;
+    }
+  }
+}
+
+.caret_down {
+  height: 15px;
+  width: 15px;
+  padding: 2px 0 0 2px;
+}

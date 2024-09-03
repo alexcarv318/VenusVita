@@ -1,0 +1,25 @@
+.address_and_contacts {
+
+  &_container {
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  @media screen and (max-width: 1224px)  {
+    &_container {
+      flex-direction: column-reverse;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 1.7rem;
+    }
+  }
+
+}
