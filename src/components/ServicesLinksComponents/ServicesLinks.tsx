@@ -1,6 +1,6 @@
 import link_styles from "src/components/Links/Links.module.scss";
 import styles from "./ServicesLinks.module.scss";
-import caretDown from "src/assets/svg/LinkCaretDown.svg";
+import caretDown from "public/assets/svg/LinkCaretDown.svg";
 import ServicesDropdown from "src/components/ServicesLinksComponents/ServicesDropdown.tsx";
 
 const ServicesLinks = () => {

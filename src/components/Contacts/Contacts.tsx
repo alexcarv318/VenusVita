@@ -1,6 +1,6 @@
 import styles from "./Contacts.module.scss";
-import logo from "src/assets/svg/logo/logo.svg";
-import instagram from "src/assets/svg/instagram-50.svg";
+import logo from "public/assets/svg/logo/logo.svg";
+import instagram from "public/assets/svg/instagram-50.svg";
 
 const Contacts = () => {
     return (

@@ -1,5 +1,5 @@
-import logo from 'src/assets/svg/logo/logo.svg';
-import bars from 'src/assets/svg/bars-xs.svg';
+import logo from 'public/assets/svg/logo/logo.svg';
+import bars from 'public/assets/svg/bars-xs.svg';
 import styles from 'src/components/layout/Header/Header.module.scss';
 import {useScrollDirection} from "src/hooks/useScrollDirection.ts";
 import {useMediaQueries} from "src/hooks/useMediaQueries.ts";

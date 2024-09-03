@@ -11,7 +11,7 @@ const PageLayout = ({children}: PageLayoutProps) => {
 
     return (
         <div className={styles.page_layout}>
-            <img className={styles.page_layout__background} src={"src/assets/images/main_background/main_background.png"} alt={"background"} />
+            <img className={styles.page_layout__background} src={"/assets/images/main_background/main_background.png"} alt={"background"} />
 
             <Header isMobileMenuOpen={isMobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
             {isMobileMenuOpen && <MobileMenu />}
