@@ -1,7 +1,7 @@
 import styles from './ServiceTopicRow.module.scss';
 import {ServiceTopic} from "src/types/ServiceTopic.ts";
-import caretUp from "src/assets/svg/CaretUp.svg";
-import caretDown from "src/assets/svg/CaretDown.svg";
+import caretUp from "public/assets/svg/CaretUp.svg";
+import caretDown from "public/assets/svg/CaretDown.svg";
 
 type ServiceTopicRowProps = {
     topic: ServiceTopic;

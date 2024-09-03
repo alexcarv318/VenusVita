@@ -27,7 +27,7 @@ const ServicesSlider = () => {
                     {serviceTopicsWithImages.map((topic) => (
                         <div className={styles.service_card} key={topic.id}>
                             <img className={styles.service_card__image}
-                                 src={"src/assets/images/services/" + topic.image_url} alt={topic.topic}/>
+                                 src={"public/assets/images/services/" + topic.image_url} alt={topic.topic}/>
                             <h3 className={styles.service_card__title}>{topic.topic}</h3>
                         </div>
                     ))}

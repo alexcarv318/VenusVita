@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
 
-  background-image: url("../../assets/images/intro_screen_backgrounds/intro_screen_background_pc.png");
+  background-image: url("../../../public/assets/images/intro_screen_backgrounds/intro_screen_background_pc.png");
   background-size: cover;
   background-position: center;
 
@@ -39,7 +39,7 @@
     align-items: end;
     justify-content: center;
 
-    background-image: url("../../assets/images/intro_screen_backgrounds/intro_screen_background_mobile.png");
+    background-image: url("../../../public/assets/images/intro_screen_backgrounds/intro_screen_background_mobile.png");
 
     &__heading {
       align-items: center;
