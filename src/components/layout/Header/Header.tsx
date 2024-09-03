@@ -9,7 +9,7 @@ import {Link} from "react-router-dom";
 
 type HeaderProps = {
     isMobileMenuOpen: boolean;
-    setMobileMenuOpen: () => void;
+    setMobileMenuOpen: (isMobileMenuOpen: boolean) => void;
 }
 
 const Header = ({isMobileMenuOpen, setMobileMenuOpen}: HeaderProps) => {

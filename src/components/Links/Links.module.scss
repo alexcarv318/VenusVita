@@ -18,5 +18,16 @@
 
   &:hover {
     color: #E1CF33;
+
+    .caret_down {
+      transform: rotate(180deg) translateY(-4px);
+      transition: 0.3s ease-in-out;
+    }
   }
+}
+
+.caret_down {
+  height: 15px;
+  width: 15px;
+  padding: 2px 0 0 2px;
 }

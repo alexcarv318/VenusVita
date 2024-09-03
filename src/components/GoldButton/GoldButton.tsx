@@ -7,7 +7,7 @@ type GoldButtonProps = {
 
 const GoldButton = ({text, isFormSubmit}: GoldButtonProps) => {
     return (
-        <button className={styles.gold_button} type={isFormSubmit && "submit"}>
+        <button className={styles.gold_button} type={isFormSubmit ? "submit" : undefined}>
             {text.toUpperCase()}
         </button>
     );

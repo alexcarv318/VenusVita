@@ -1,32 +1,29 @@
 import styles from './OurTeam.module.scss';
+import MemberSection from "src/components/MemberSection/MemberSection.tsx";
 
 const OurTeam = () => {
-    // TODO: CHANGE THE DESCRIPTIONS BECAUSE THEY ARE STOLEN
     return (
         <div className={styles.our_team}>
-            <div className={styles.our_team_member}>
-                <div className={styles.our_team_member__info}>
-                    <h2 className={styles.our_team_member__title}>Дерматокосметолог, засновник та головний лікар клініки Venus Vita</h2>
-                    <p className={styles.our_team_member__description}>Більше 9 років практичного досвіду в естетичній косметології.</p>
-                </div>
-                <figure className={styles.our_team_member__figure}>
-                    <img className={styles.our_team_member__image} src="src/assets/images/team/nataliya.png"
-                         alt="Вергун Наталія"/>
-                    <figcaption className={styles.our_team_member__caption}>Вергун Наталія Михайлівна</figcaption>
-                </figure>
-            </div>
+            <MemberSection
+                profession={"Косметолог"}
+                description={"Понад 15 років працює в сфері косметології, краси та молодості."}
+                image_url={"src/assets/images/team/nataliya.png"}
+                name={"Вергун Наталія Михайлівна"}
+            />
 
-            <div className={styles.our_team_member}>
-                <div className={styles.our_team_member__info}>
-                    <h2 className={styles.our_team_member__title}>Лікар-дерматолог, косметолог</h2>
-                    <p className={styles.our_team_member__description}>Понад 7 років працює у сфері косметології, краси та молодості.</p>
-                </div>
-                <figure className={styles.our_team_member__figure}>
-                    <img className={styles.our_team_member__image} src="src/assets/images/team/nastya.png"
-                         alt="Анастасія"/>
-                    <figcaption className={styles.our_team_member__caption}>Анастасія</figcaption>
-                </figure>
-            </div>
+            <MemberSection
+                profession={"Естетист-косметолог, візажист"}
+                description={""}
+                image_url={"src/assets/images/team/nastya.png"}
+                name={"Красноярова Анастасія Олександрівна"}
+            />
+
+            {/*<MemberSection*/}
+            {/*    profession={"Косметолог"}*/}
+            {/*    description={}*/}
+            {/*    image_url={}*/}
+            {/*    name={}*/}
+            {/*/>*/}
         </div>
     )
 }

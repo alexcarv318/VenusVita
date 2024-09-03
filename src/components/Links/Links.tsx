@@ -1,7 +1,8 @@
 import styles from "./Links.module.scss";
 import {Link} from "react-router-dom";
+import ServicesLinks from "src/components/ServicesLinksComponents/ServicesLinks.tsx";
 
-type LinksProps = () => {
+type LinksProps = {
     direction: "column" | "row";
     align?: "center" | "start" | "end";
 }
@@ -9,7 +10,7 @@ type LinksProps = () => {
 const Links = ({direction, align}: LinksProps) => {
     return (
         <div className={(direction === "row" ? styles.links_row : styles.links_column)} style={{textAlign: align}}>
-            <Link to={"/services"} className={styles.link}>Послуги</Link>
+            {/*<ServicesLinks />*/}
             <Link to={"/about"} className={styles.link}>Про нас</Link>
             <Link to={"/price"} className={styles.link}>Ціни</Link>
             <Link to={"/contacts"} className={styles.link}>Контакти</Link>

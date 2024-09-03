@@ -1,10 +1,10 @@
 import styles from './MakeAppointmentForm.module.scss';
 import GoldButton from "src/components/GoldButton/GoldButton.tsx";
-import {useState} from "react";
+import {CSSProperties, useState} from "react";
 import {useSendMail} from "src/hooks/useSendMail.ts";
 
 type MakeAppointmentFormProps = {
-    additional_styles?: CSSStyleDeclaration;
+    additional_styles?: CSSProperties;
 }
 
 const MakeAppointmentForm = ({ additional_styles }: MakeAppointmentFormProps) => {

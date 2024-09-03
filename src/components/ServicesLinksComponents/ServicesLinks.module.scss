@@ -1,0 +1,33 @@
+.services_link {
+  display: block;
+  position: relative;
+
+  &:hover &__dropdown {
+    max-height: 700px;
+  }
+
+  &:active &__dropdown {
+    max-height: 700px;
+  }
+
+  &__dropdown {
+    max-height: 0;
+    width: 300px;
+    overflow-y: hidden;
+    transition: all 0.3s ease;
+    z-index: 5;
+
+    position: absolute;
+    top: 100%;
+
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    text-align: start;
+    padding: 0 10px;
+
+    color: var(--main-black);
+    font-size: 16px;
+  }
+
+}

@@ -5,3 +5,12 @@
   margin: 0 10px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1224px) {
+  .service_topic_row {
+    h2 {
+      text-align: start;
+      font-size: 1.1rem;
+    }
+  }
+}

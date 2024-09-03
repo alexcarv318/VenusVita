@@ -3,10 +3,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import services_topics from "src/data/services_topics.json";
 import styles from "./ServiceSlider.module.scss";
+import {useMediaQueries} from "src/hooks/useMediaQueries.ts";
 
 const ServicesSlider = () => {
     const serviceTopicsWithImages = services_topics.filter((topic) => topic.image_url !== undefined);
-    console.log(serviceTopicsWithImages)
+    const mediaQueries = useMediaQueries()
 
     const settings = {
         arrows: true,
@@ -14,8 +15,9 @@ const ServicesSlider = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToShow: mediaQueries.isTabletOrMobile ? 1 : 3,
+        slidesToScroll: 1,
+        autoplay: true
     };
 
     return (
