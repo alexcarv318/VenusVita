@@ -6,6 +6,7 @@ export const smtpexpressClient = createClient({
 });
 
 export function useSendMail(message: string) {
+    localStorage.setItem("appointment", "true");
     smtpexpressClient.sendApi.sendMail({
         subject: "Запис на візит!",
         message: message,

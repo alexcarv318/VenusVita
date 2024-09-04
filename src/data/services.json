@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Карбоксітерапія",
-    "description": "Карбоксітерапія — це косметична процедура, яка передбачає введення під шкіру вуглекислого газу (CO₂). Цей метод використовується для покращення стану шкіри, зменшення целюліту, розтяжок, мішків під очима, а також для стимуляції росту волосся. Вуглекислий газ підвищує кровообіг і покращує оксигенацію тканин, що сприяє активації природних процесів регенерації шкіри, покращенню її пружності, тонусу та текстури. Процедура є малотравматичною, не потребує тривалого відновлення і може застосовуватись на різних ділянках тіла та обличчя.",
+    "description": "",
     "price": 1200,
     "image": null,
     "topic_id": 1
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Міофасціальний масаж обличчя",
-    "description": "Масаж обличчя — це косметична процедура, спрямована на покращення стану шкіри та загального вигляду обличчя. Під час масажу стимулюються м'язи обличчя, посилюється кровообіг, покращується лімфодренаж, що допомагає зменшити набряки, запобігти появі зморшок та підвищити пружність шкіри. Масаж обличчя також сприяє розслабленню м'язів, зменшенню стресу та покращенню кольору шкіри. Процедура може включати різні техніки, такі як розтирання, розминання, постукування і погладжування, та може бути виконана вручну або за допомогою спеціальних пристроїв. Регулярний масаж обличчя допомагає підтримувати молодість та здоров'я шкіри.",
+    "description": "",
     "price": 700,
     "image": null,
     "topic_id": 1
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Інтенсивне зволоження THSera",
-    "description": "Інтенсивне зволоження THSera — це спеціалізована косметична процедура, спрямована на глибоке зволоження шкіри обличчя та відновлення її водного балансу. Ця терапія використовує активну сироватку, багату на гіалуронову кислоту, пептиди та інші зволожувальні компоненти, які проникають у глибокі шари шкіри, забезпечуючи її тривале зволоження, живлення та покращення текстури. Процедура сприяє розгладженню дрібних зморшок, підвищенню еластичності шкіри та надає їй свіжого, сяючого вигляду. Інтенсивне зволоження THSera ідеально підходить для сухої, зневодненої шкіри та є чудовим рішенням для підтримання здорового вигляду шкіри в будь-яку пору року.",
+    "description": "",
     "price": 4000,
     "image": null,
     "topic_id": 1
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Мезотерапія обличчя",
-    "description": "Мезотерапія обличчя — це косметична процедура, яка передбачає введення під шкіру спеціальних коктейлів, що містять вітаміни, мінерали, амінокислоти та інші корисні компоненти. Цей метод допомагає покращити стан шкіри, зменшити зморшки, підвищити її пружність та тонус, а також покращити колір та текстуру. Мезотерапія обличчя може бути виконана за допомогою ін'єкцій або без них, використовуючи спеціальні апарати. Процедура є малотравматичною, не потребує тривалого відновлення і може застосовуватись на різних ділянках тіла та обличчя.",
+    "description": "",
     "price": 2500,
     "image": null,
     "topic_id": 1
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Догляд Casmara",
-    "description": "Догляд Casmara — це комплексна косметична процедура, що поєднує в собі інноваційні методи догляду за шкірою обличчя з використанням високоякісних продуктів від іспанського бренду Casmara. Цей догляд адаптується до індивідуальних потреб шкіри, забезпечуючи глибоке очищення, зволоження, живлення та омолодження. Процедура може включати різні етапи, такі як делікатний пілінг, нанесення концентрованих сироваток та застосування спеціальних масок, зокрема знаменитих альгінатних масок Casmara, які забезпечують шкірі інтенсивне зволоження, відновлення та заспокоєння. Догляд Casmara підходить для всіх типів шкіри і допомагає досягти здорового, сяючого вигляду, забезпечуючи довготривалий ефект свіжості та краси.",
+    "description": "",
     "price": 1800,
     "image": null,
     "topic_id": 1
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Відбілююча процедура Ju San",
-    "description": "Відбілююча процедура Ju San — це спеціалізований косметичний догляд, спрямований на вирівнювання тону шкіри, зменшення пігментації та надання обличчю свіжого, сяючого вигляду. Під час процедури використовуються високоефективні засоби з активними компонентами, такими як вітамін C, ніацинамід та інші природні освітлюючі агенти, які проникають у глибокі шари шкіри. Ju San допомагає освітлити темні плями, зменшити ознаки фотостаріння, покращити текстуру шкіри та забезпечити її глибоке зволоження. Процедура підходить для різних типів шкіри та особливо ефективна для тих, хто бажає досягти рівного, яскравого кольору обличчя без агресивного впливу на шкіру.",
+    "description": "",
     "price": 1200,
     "image": null,
     "topic_id": 1
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Комбінована чистка обличчя + маска",
-    "description": "Комбінована чистка обличчя + маска — це комплексна косметична процедура, що поєднує в собі механічні та апаратні методи очищення шкіри з подальшим нанесенням заспокійливої та відновлювальної маски. Процедура розпочинається з делікатного очищення шкіри та підготовки її до глибокого очищення, яке включає видалення забруднень, комедонів і надлишку шкірного сала. Механічна частина дозволяє ретельно очистити пори, а апаратні методи, такі як ультразвукова або вакуумна чистка, допомагають досягти ще глибшого ефекту, не травмуючи шкіру. Завершує процедуру спеціальна маска, яка заспокоює шкіру, знімає запалення, зволожує та відновлює її природний баланс. Комбінована чистка обличчя з маскою підходить для всіх типів шкіри і є ефективним способом підтримувати її чистою, свіжою та здоровою.",
+    "description": "",
     "price": 1500,
     "image": null,
     "topic_id": 2
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Пінний ензимний догляд",
-    "description": "Пінний ензимний догляд — це ніжна та ефективна косметична процедура, призначена для делікатного очищення і оновлення шкіри обличчя. Основним компонентом процедури є ензимний пінний склад, який містить натуральні ферменти, що м'яко розчиняють ороговілі клітини, забруднення та надлишок шкірного сала, не порушуючи природний бар'єр шкіри. Під час процедури активні ензими проникають у пори, очищуючи їх і вирівнюючи текстуру шкіри. Пінний формат догляду забезпечує легке нанесення та комфорт під час процедури, залишаючи шкіру свіжою, гладкою та сяючою. Пінний ензимний догляд підходить для всіх типів шкіри, включаючи чутливу, і особливо ефективний для тих, хто шукає делікатний, але глибокий догляд.",
+    "description": "",
     "price": 1800,
     "image": null,
     "topic_id": 2
@@ -66,9 +66,937 @@
   {
     "id": 9,
     "name": "Вогонь і лід",
-    "description": "\"Вогонь і лід\" — це інноваційна косметична процедура, яка поєднує в собі ефекти тепла та холоду для досягнення глибокого омолодження та оздоровлення шкіри. Процедура складається з двох основних етапів. Перший етап, \"Вогонь\", передбачає нанесення розігріваючої маски з активними інгредієнтами, які стимулюють кровообіг, розкривають пори та активують процеси регенерації шкіри. Другий етап, \"Лід\", включає нанесення охолоджуючої маски, яка заспокоює шкіру, звужує пори та зменшує почервоніння, надаючи обличчю свіжий і сяючий вигляд. Ця процедура допомагає зменшити зморшки, покращити текстуру шкіри, зволожити її та надати природного сяйва. \"Вогонь і лід\" ідеально підходить для швидкого відновлення шкіри, коли потрібен миттєвий результат з довготривалим ефектом.",
+    "description": "",
     "price": 1500,
     "image": null,
     "topic_id": 2
+  },
+  {
+    "id": 10,
+    "name": "Комбінована чистка обличчя + ферментна маска",
+    "description": "",
+    "price": 1800,
+    "image": null,
+    "topic_id": 3
+  },
+  {
+    "id": 11,
+    "name": "Комбінована чистка обличчя + квік піл + кремова маска",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 3
+  },
+  {
+    "id": 12,
+    "name": "Ексфолізація",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 4
+  },
+  {
+    "id": 13,
+    "name": "Вакуумне очищення для регуляції та виділення себуму і загоєння",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 4
+  },
+  {
+    "id": 14,
+    "name": "Чистка обличчя",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 4
+  },
+  {
+    "id": 15,
+    "name": "Інтенсивне зволоження + сироватка",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 4
+  },
+  {
+    "id": 16,
+    "name": "Доглядові процедури за типом шкіри",
+    "description": "",
+    "price": 1200,
+    "image": null,
+    "topic_id": 5
+  },
+  {
+    "id": 17,
+    "name": "Пілінги Квік піл",
+    "description": "",
+    "price": 1000,
+    "image": null,
+    "topic_id": 5
+  },
+  {
+    "id": 18,
+    "name": "Прозайм Макро піл",
+    "description": "",
+    "price": 1000,
+    "image": null,
+    "topic_id": 5
+  },
+  {
+    "id": 19,
+    "name": "Алкалайн Вош",
+    "description": "",
+    "price": 1000,
+    "image": null,
+    "topic_id": 5
+  },
+  {
+    "id": 20,
+    "name": "Обличчя",
+    "description": "",
+    "price": 800,
+    "image": null,
+    "topic_id": 6
+  },
+  {
+    "id": 21,
+    "name": "Обличчя + шия",
+    "description": "",
+    "price": 900,
+    "image": null,
+    "topic_id": 6
+  },
+  {
+    "id": 22,
+    "name": "Декольте",
+    "description": "",
+    "price": 1000,
+    "image": null,
+    "topic_id": 6
+  },
+  {
+    "id": 23,
+    "name": "Алмазна шліфовка",
+    "description": "",
+    "price": 2200,
+    "image": null,
+    "topic_id": 7
+  },
+  {
+    "id": 24,
+    "name": "Ексфоліація",
+    "description": "",
+    "price": 2200,
+    "image": null,
+    "topic_id": 7
+  },
+  {
+    "id": 25,
+    "name": "Інтенсивне зволоження + сироватка",
+    "description": "",
+    "price": 2200,
+    "image": null,
+    "topic_id": 7
+  },
+  {
+    "id": 26,
+    "name": "ПРП регенерація (2 пробірки)",
+    "description": "",
+    "price": 1800,
+    "image": null,
+    "topic_id": 8
+  },
+  {
+    "id": 27,
+    "name": "ПРП регенерація (4 пробірки)",
+    "description": "",
+    "price": 3000,
+    "image": null,
+    "topic_id": 8
+  },
+  {
+    "id": 28,
+    "name": "ПРП зволоження та освітення (2 пробірки)",
+    "description": "",
+    "price": 1800,
+    "image": null,
+    "topic_id": 8
+  },
+  {
+    "id": 29,
+    "name": "ПРП зволоження та освітення (4 пробірки)",
+    "description": "",
+    "price": 1800,
+    "image": null,
+    "topic_id": 8
+  },
+  {
+    "id": 30,
+    "name": "Плазмоліфтинг шкіри голови",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 8
+  },
+  {
+    "id": 31,
+    "name": "Все обличчя",
+    "description": "",
+    "price": 2900,
+    "image": null,
+    "topic_id": 9
+  },
+  {
+    "id": 32,
+    "name": "Щоки",
+    "description": "",
+    "price": 1700,
+    "image": null,
+    "topic_id": 9
+  },
+  {
+    "id": 33,
+    "name": "Лоб",
+    "description": "",
+    "price": 700,
+    "image": null,
+    "topic_id": 9
+  },
+  {
+    "id": 34,
+    "name": "Підборіддя",
+    "description": "",
+    "price": 600,
+    "image": null,
+    "topic_id": 9
+  },
+  {
+    "id": 35,
+    "name": "Ніс повністю",
+    "description": "",
+    "price": 600,
+    "image": null,
+    "topic_id": 9
+  },
+  {
+    "id": 36,
+    "name": "Одна судинна зірочка",
+    "description": "",
+    "price": 300,
+    "image": null,
+    "topic_id": 9
+  },
+  {
+    "id": 37,
+    "name": "Обличчя",
+    "description": "",
+    "price": 2900,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 38,
+    "name": "Обличчя + шия",
+    "description": "",
+    "price": 4200,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 39,
+    "name": "Обличчя + шия + декольте",
+    "description": "",
+    "price": 5700,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 40,
+    "name": "Кисті рук",
+    "description": "",
+    "price": 2700,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 41,
+    "name": "Декольте",
+    "description": "",
+    "price": 2200,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 42,
+    "name": "Щоки",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 43,
+    "name": "Очі",
+    "description": "",
+    "price": 1200,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 44,
+    "name": "Зона лоба",
+    "description": "",
+    "price": 1200,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 45,
+    "name": "Підборіддя",
+    "description": "",
+    "price": 600,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 46,
+    "name": "Верхня губа",
+    "description": "",
+    "price": 600,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 47,
+    "name": "Ніс",
+    "description": "",
+    "price": 400,
+    "image": null,
+    "topic_id": 10
+  },
+  {
+    "id": 48,
+    "name": "Мигдалевий",
+    "description": "",
+    "price": 800,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 49,
+    "name": "Азеліновий",
+    "description": "",
+    "price": 800,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 50,
+    "name": "Ензимний",
+    "description": "",
+    "price": 800,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 51,
+    "name": "Молочний",
+    "description": "",
+    "price": 800,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 52,
+    "name": "Феруловий",
+    "description": "",
+    "price": 800,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 53,
+    "name": "Ретиноловий Liochening",
+    "description": "",
+    "price": 2200,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 54,
+    "name": "Ретиноловий з демиксидом",
+    "description": "",
+    "price": 1600,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 55,
+    "name": "Ретиноловий Sesderma",
+    "description": "",
+    "price": 1800,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 56,
+    "name": "Bio Repeal",
+    "description": "",
+    "price": 1300,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 57,
+    "name": "PRX T33",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 58,
+    "name": "Kemi Kun",
+    "description": "",
+    "price": 1200,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 59,
+    "name": "Саліциловий",
+    "description": "",
+    "price": 800,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 60,
+    "name": "Джеснера",
+    "description": "",
+    "price": 800,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 61,
+    "name": "«Алкалайн вош» ОМК",
+    "description": "",
+    "price": 2200,
+    "image": null,
+    "topic_id": 11
+  },
+  {
+    "id": 62,
+    "name": "Anti-Acne (Dermika)",
+    "description": "",
+    "price": 1200,
+    "image": null,
+    "topic_id": 12
+  },
+  {
+    "id": 63,
+    "name": "Anti-Ptosis",
+    "description": "",
+    "price": 2800,
+    "image": null,
+    "topic_id": 12
+  },
+  {
+    "id": 64,
+    "name": "RRS мезотерапія",
+    "description": "",
+    "price": 1000,
+    "image": null,
+    "topic_id": 12
+  },
+  {
+    "id": 65,
+    "name": "RRS очі",
+    "description": "",
+    "price": 1300,
+    "image": null,
+    "topic_id": 12
+  },
+  {
+    "id": 66,
+    "name": "Мезо шкіри голови «AGF -19 Forte»",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 12
+  },
+  {
+    "id": 67,
+    "name": "Мезо шкіри голови «Plinest»",
+    "description": "",
+    "price": 5000,
+    "image": null,
+    "topic_id": 12
+  },
+  {
+    "id": 68,
+    "name": "Мезо шкіри голови «Dermika»",
+    "description": "",
+    "price": 1250,
+    "image": null,
+    "topic_id": 12
+  },
+  {
+    "id": 69,
+    "name": "Made",
+    "description": "",
+    "price": 1000,
+    "image": null,
+    "topic_id": 12
+  },
+  {
+    "id": 70,
+    "name": "DMAE",
+    "description": "",
+    "price": 1000,
+    "image": null,
+    "topic_id": 12
+  },
+  {
+    "id": 71,
+    "name": "Gana V",
+    "description": "",
+    "price": 16000,
+    "image": null,
+    "topic_id": 13
+  },
+  {
+    "id": 72,
+    "name": "AES PLLA ILUMA",
+    "description": "",
+    "price": 16800,
+    "image": null,
+    "topic_id": 13
+  },
+  {
+    "id": 73,
+    "name": "GIDRO PLLA",
+    "description": "",
+    "price": 5000,
+    "image": null,
+    "topic_id": 13
+  },
+  {
+    "id": 74,
+    "name": "HIPLA",
+    "description": "",
+    "price": 14000,
+    "image": null,
+    "topic_id": 13
+  },
+  {
+    "id": 75,
+    "name": "Peptyform з гідроксіопатитом",
+    "description": "",
+    "price": 5300,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 76,
+    "name": "Rejuran Heazer",
+    "description": "",
+    "price": 5000,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 77,
+    "name": "Rejuran HB, S",
+    "description": "",
+    "price": 3300,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 78,
+    "name": "Rejuran I (очі)",
+    "description": "",
+    "price": 3000,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 79,
+    "name": "Neauvia Hydro",
+    "description": "",
+    "price": 3800,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 80,
+    "name": "Bolotero Revive",
+    "description": "",
+    "price": 4800,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 81,
+    "name": "Peptidya 2 HX",
+    "description": "",
+    "price": 5400,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 82,
+    "name": "Prinest",
+    "description": "",
+    "price": 5000,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 83,
+    "name": "Kiara Reju",
+    "description": "",
+    "price": 2000,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 84,
+    "name": "Kaira Reju",
+    "description": "",
+    "price": 2800,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 85,
+    "name": "Miore booster",
+    "description": "",
+    "price": 1800,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 86,
+    "name": "Miore mess lift",
+    "description": "",
+    "price": 3000,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 87,
+    "name": "Radiant suture",
+    "description": "",
+    "price": 5000,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 88,
+    "name": "PDNR booster",
+    "description": "",
+    "price": 6500,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 89,
+    "name": "Recok 50",
+    "description": "",
+    "price": 5200,
+    "image": null,
+    "topic_id": 14
+  },
+  {
+    "id": 90,
+    "name": "Meseostetic",
+    "description": "",
+    "price": 800,
+    "image": null,
+    "topic_id": 15
+  },
+  {
+    "id": 91,
+    "name": "Adipazon",
+    "description": "",
+    "price": 2800,
+    "image": null,
+    "topic_id": 15
+  },
+  {
+    "id": 92,
+    "name": "Lipo X",
+    "description": "",
+    "price": 2000,
+    "image": null,
+    "topic_id": 15
+  },
+  {
+    "id": 93,
+    "name": "Aqualix",
+    "description": "",
+    "price": 2000,
+    "image": null,
+    "topic_id": 15
+  },
+  {
+    "id": 94,
+    "name": "Ultra Light",
+    "description": "",
+    "price": 1200,
+    "image": null,
+    "topic_id": 15
+  },
+  {
+    "id": 95,
+    "name": "Belotero Balance (1 ml)",
+    "description": "",
+    "price": 600,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 96,
+    "name": "Belotero Intense (1 ml)",
+    "description": "",
+    "price": 650,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 97,
+    "name": "JALOR Intence (1 ml)",
+    "description": "",
+    "price": 650,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 98,
+    "name": "JALOR KISS (1 ml)",
+    "description": "",
+    "price": 650,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 99,
+    "name": "Strage M (1 ml)",
+    "description": "",
+    "price": 700,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 100,
+    "name": "Stilage L (1 ml)",
+    "description": "",
+    "price": 500,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 101,
+    "name": "Croma (1 ml)",
+    "description": "",
+    "price": 650,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 102,
+    "name": "Chacum Premium (1 ml)",
+    "description": "",
+    "price": 450,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 103,
+    "name": "Extra (1 ml)",
+    "description": "",
+    "price": 480,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 104,
+    "name": "Angela (1 ml)",
+    "description": "",
+    "price": 490,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 105,
+    "name": "Dermalax (1 ml)",
+    "description": "",
+    "price": 480,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 106,
+    "name": "Radiant PDRN (2 ml)",
+    "description": "",
+    "price": 500,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 107,
+    "name": "Radiant PDRN 3 (2 ml)",
+    "description": "",
+    "price": 500,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 108,
+    "name": "Ліфтинг армування овалу філером",
+    "description": "",
+    "price": 600,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 109,
+    "name": "Розщеплення старого філера",
+    "description": "",
+    "price": 180,
+    "image": null,
+    "topic_id": 16
+  },
+  {
+    "id": 110,
+    "name": "Лоб + міжбровна зона + очі",
+    "description": "",
+    "price": 5500,
+    "image": null,
+    "topic_id": 17
+  },
+  {
+    "id": 111,
+    "name": "Міжбровна зона",
+    "description": "",
+    "price": 2800,
+    "image": null,
+    "topic_id": 17
+  },
+  {
+    "id": 112,
+    "name": "Очі гусячі лапки",
+    "description": "",
+    "price": 2800,
+    "image": null,
+    "topic_id": 17
+  },
+  {
+    "id": 113,
+    "name": "Лікування гіпергідрозу",
+    "description": "",
+    "price": 6000,
+    "image": null,
+    "topic_id": 17
+  },
+  {
+    "id": 114,
+    "name": "Кисетні зморшки",
+    "description": "",
+    "price": 2000,
+    "image": null,
+    "topic_id": 17
+  },
+  {
+    "id": 115,
+    "name": "Корекція овалу обличчя (все обличчя)",
+    "description": "",
+    "price": 6000,
+    "image": null,
+    "topic_id": 17
+  },
+  {
+    "id": 116,
+    "name": "Корекція овалу обличчя (жувальний м'яз)",
+    "description": "",
+    "price": 4500,
+    "image": null,
+    "topic_id": 17
+  },
+  {
+    "id": 117,
+    "name": "Ультразвукова мезотерапія",
+    "description": "",
+    "price": 1200,
+    "image": null,
+    "topic_id": 19
+  },
+  {
+    "id": 118,
+    "name": "Ультразвукова кріотерапія",
+    "description": "",
+    "price": 800,
+    "image": null,
+    "topic_id": 19
+  },
+  {
+    "id": 119,
+    "name": "RF-ліфтинг обличчя",
+    "description": "",
+    "price": 1200,
+    "image": null,
+    "topic_id": 19
+  },
+  {
+    "id": 120,
+    "name": "Мікроголковий RF обличчя",
+    "description": "",
+    "price": 4000,
+    "image": null,
+    "topic_id": 19
+  },
+  {
+    "id": 121,
+    "name": "Мікроголковий RF обличчя + декольте",
+    "description": "",
+    "price": 5000,
+    "image": null,
+    "topic_id": 19
+  },
+  {
+    "id": 122,
+    "name": "Мікроголковий RF тіло (1 зона)",
+    "description": "",
+    "price": 4000,
+    "image": null,
+    "topic_id": 19
+  },
+  {
+    "id": 123,
+    "name": "Лікування розації IPL",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 19
+  },
+  {
+    "id": 124,
+    "name": "Лікування акне IPL",
+    "description": "",
+    "price": 1500,
+    "image": null,
+    "topic_id": 19
+  },
+  {
+    "id": 125,
+    "name": "Залежно від зони (проконсультуйтеся з нашим адміністратором)",
+    "description": "",
+    "price": "Ціна варіюється",
+    "image": null,
+    "topic_id": 21
   }
 ]

@@ -15,6 +15,9 @@ const MakeAppointmentForm = ({ additional_styles }: MakeAppointmentFormProps) =>
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
+        if (localStorage.getItem("appointment") === "true") {
+            return
+        }
         return useSendMail(
            `<h2>До нас хоче записатися клієнт:</h2>
            <p>Ім'я: ${name + " " + surname}</p>
