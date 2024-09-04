@@ -10,7 +10,13 @@
   .service_topic_row {
     h2 {
       text-align: start;
-      font-size: 1.1rem;
+      font-size: 1rem;
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+      margin-top: 16px;
     }
   }
 }

@@ -50,5 +50,10 @@
       &__title, &__description {
         text-align: center;
       }
+
+      &__image {
+        max-width: 250px;
+        max-height: 400px;
+      }
     }
 }
