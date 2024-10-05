@@ -3,6 +3,6 @@ export type Service = {
     name: string;
     description: string;
     price: number | string;
-    image: string | null;
-    topic_id: number;
+    imageUrl: string | null;
+    topicId: number;
 }

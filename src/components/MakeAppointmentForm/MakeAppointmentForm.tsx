@@ -1,7 +1,7 @@
 import styles from './MakeAppointmentForm.module.scss';
 import GoldButton from "src/components/GoldButton/GoldButton.tsx";
 import {CSSProperties, useState} from "react";
-import {useSendMail} from "src/hooks/useSendMail.ts";
+import {sendMail} from "../../api/sendMail.ts";
 
 type MakeAppointmentFormProps = {
     additional_styles?: CSSProperties;
@@ -15,16 +15,12 @@ const MakeAppointmentForm = ({ additional_styles }: MakeAppointmentFormProps) =>
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        if (localStorage.getItem("appointment") === "true") {
-            return
-        }
-        return useSendMail(
-           `<h2>До нас хоче записатися клієнт:</h2>
-           <p>Ім'я: ${name + " " + surname}</p>
-           <p>Телефон: ${phone}</p>
-           <p>Email: ${email}</p>
-           <h3>Зв'яжіться з ним, будь ласка!</h3>`
-        );
+        sendMail({
+            name: name,
+            surname: surname,
+            phone: phone,
+            email: email
+        });
     };
 
     const handleChange = (setter: React.Dispatch<React.SetStateAction<string>>) => (e: React.ChangeEvent<HTMLInputElement>) => {

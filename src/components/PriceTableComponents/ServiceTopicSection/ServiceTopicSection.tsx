@@ -1,17 +1,22 @@
-import {ServiceTopic} from "src/types/ServiceTopic.ts";
-import {useState} from "react";
-import services from "src/data/services.json";
+import {Topic} from "src/types/Topic.ts";
+import {useEffect, useState} from "react";
 import ServiceTopicRow from "src/components/PriceTableComponents/ServiceTopicRow/ServiceTopicRow.tsx";
 import ServiceRow from "src/components/PriceTableComponents/ServiceRow/ServiceRow.tsx";
 import styles from "./ServiceTopicSection.module.scss"
+import {Service} from "../../../types/Service.ts";
+import {getServicesByTopic} from "../../../api/getServicesByTopic.ts";
 
 type PriceRowProps = {
-    topic: ServiceTopic;
+    topic: Topic;
 }
 
 const ServiceTopicSection = ({topic}: PriceRowProps) => {
     const [isContentOpen, setIsContentOpen] = useState(false);
-    const servicesFilteredByTopic = services.filter((service) => service.topic_id === topic.id);
+    const [servicesRelatedToTopic, setServicesRelatedToTopic] = useState<Service[]>([])
+
+    useEffect(() => {
+        getServicesByTopic(topic.id).then(setServicesRelatedToTopic)
+    }, [])
 
     return (
         <>
@@ -21,7 +26,7 @@ const ServiceTopicSection = ({topic}: PriceRowProps) => {
                 topic={topic}
             />
             <div className={`${styles.services_content} ${isContentOpen ? styles.open : ''}`}>
-                {servicesFilteredByTopic.map((service) => (
+                {servicesRelatedToTopic.map((service) => (
                     <ServiceRow key={service.id} service={service} />
                 ))}
             </div>
