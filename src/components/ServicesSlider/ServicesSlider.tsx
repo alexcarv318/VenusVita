@@ -1,13 +1,19 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import services_topics from "src/data/services_topics.json";
 import styles from "./ServiceSlider.module.scss";
 import {useMediaQueries} from "src/hooks/useMediaQueries.ts";
+import {getServiceTopicsWithImages} from "../../api/getServiceTopicsWithImages.ts";
+import {useEffect, useState} from "react";
+import {Topic} from "../../types/Topic.ts";
 
 const ServicesSlider = () => {
-    const serviceTopicsWithImages = services_topics.filter((topic) => topic.image_url !== undefined);
-    const mediaQueries = useMediaQueries()
+    const [serviceTopicsWithImages, setServiceTopicsWithImages] = useState<Topic[]>([]);
+    const mediaQueries = useMediaQueries();
+
+    useEffect(() => {
+        getServiceTopicsWithImages().then(setServiceTopicsWithImages);
+    }, []);
 
     const settings = {
         arrows: true,
@@ -27,7 +33,7 @@ const ServicesSlider = () => {
                     {serviceTopicsWithImages.map((topic) => (
                         <div className={styles.service_card} key={topic.id}>
                             <img className={styles.service_card__image}
-                                 src={"/assets/images/services/" + topic.image_url} alt={topic.topic}/>
+                                 src={topic.imageUrl} alt={topic.topic}/>
                             <h3 className={styles.service_card__title}>{topic.topic}</h3>
                         </div>
                     ))}
