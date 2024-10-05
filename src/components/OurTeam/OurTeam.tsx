@@ -7,14 +7,14 @@ const OurTeam = () => {
             <MemberSection
                 profession={"Косметолог"}
                 description={"Дипломований косметолог із багаторічним досвідом. Постійно підвищує свою кваліфікацію, щоб запропонувати найсучасніші методи та процедури."}
-                image_url={"/assets/images/team/nataliya.png"}
+                image_url={"https://venusvita.s3.eu-north-1.amazonaws.com/team/nataliya.png"}
                 name={"Вергун Наталія Михайлівна"}
             />
 
             <MemberSection
                 profession={"Естетист-косметолог, візажист"}
                 description={"Професійний естетист-косметолог з досвідом роботи в індустрії краси."}
-                image_url={"/assets/images/team/nastya.png"}
+                image_url={"https://venusvita.s3.eu-north-1.amazonaws.com/team/nastya.png"}
                 name={"Красноярова Анастасія Олександрівна"}
             />
 
