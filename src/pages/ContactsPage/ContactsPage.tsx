@@ -8,7 +8,7 @@ const ContactsPage = () => {
         <PageLayout>
             <section className={styles.address_and_contacts_section}>
                 <AddressAndContactsScreen />
-                {/*<GoogleMaps />*/}
+                <GoogleMaps />
             </section>
         </PageLayout>
     )
