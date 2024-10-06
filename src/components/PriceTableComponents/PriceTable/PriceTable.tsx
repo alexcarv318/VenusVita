@@ -1,4 +1,3 @@
-import services_topics from "src/data/services_topics.json";
 import styles from "src/components/PriceTableComponents/PriceTable/PriceTable.module.scss"
 import TableContainer from "src/components/layout/TableContainer/TableContainer.tsx";
 import ServiceTopicSection from "src/components/PriceTableComponents/ServiceTopicSection/ServiceTopicSection.tsx";

@@ -1,8 +1,14 @@
-import services_topics from 'src/data/services_topics.json';
 import styles from './ServicesLinks.module.scss';
+import {useEffect, useState} from "react";
+import {Topic} from "../../types/Topic.ts";
+import {getServiceTopicsWithImages} from "../../api/getServiceTopicsWithImages.ts";
 
 const ServicesDropdown = () => {
-    const serviceTopicsWithImages = services_topics.filter((topic) => topic.image_url !== undefined);
+    const [serviceTopicsWithImages, setServiceTopicsWithImages] = useState<Topic[]>([]);
+
+    useEffect(() => {
+        getServiceTopicsWithImages().then(setServiceTopicsWithImages);
+    }, []);
 
     return (
         <div className={styles.services_link__dropdown}>
