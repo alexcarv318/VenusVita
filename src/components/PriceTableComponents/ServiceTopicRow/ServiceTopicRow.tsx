@@ -1,10 +1,10 @@
 import styles from './ServiceTopicRow.module.scss';
-import {ServiceTopic} from "src/types/Topic.ts";
+import {Topic} from "src/types/Topic.ts";
 import caretUp from "/assets/svg/CaretUp.svg";
 import caretDown from "/assets/svg/CaretDown.svg";
 
 type ServiceTopicRowProps = {
-    topic: ServiceTopic;
+    topic: Topic;
     isContentOpen: boolean;
     onClick: () => void;
 }
