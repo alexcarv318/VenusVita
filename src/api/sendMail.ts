@@ -9,7 +9,7 @@ type sendMailProps = {
 }
 
 export function sendMail({name, surname, phone, email}: sendMailProps) {
-    axios.post(apiURL + "/api/appointment/create", {
+    axios.post(apiURL + "/appointment/create", {
         name: name,
         surname: surname,
         phone: phone,
